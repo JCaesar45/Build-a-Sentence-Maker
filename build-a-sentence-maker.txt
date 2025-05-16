@@ -1,0 +1,33 @@
+** start of script.js **
+
+// Declare and assign initial variables
+let adjective = "fierce";
+let noun = "dragon";
+let verb = "angry";
+let place = "cave";
+let adjective2 = "fiery";
+let noun2 = "marshmallows";
+
+// Create the first story using the provided template
+let firstStory = `Once upon a time, there was a(n) ${adjective} ${noun} who loved to eat ${noun2}. The ${noun} lived in a ${place} and had ${adjective2} nostrils that blew fire when it was ${verb}.`;
+
+// Output the first story
+console.log("First story: " + firstStory);
+
+// Reassign new values to the variables
+adjective = "tiny";
+noun = "kitten";
+verb = "cold";
+place = "castle";
+adjective2 = "sparkly";
+noun2 = "tuna";
+
+// Create the second story
+let secondStory = `Once upon a time, there was a(n) ${adjective} ${noun} who loved to eat ${noun2}. The ${noun} lived in a ${place} and had ${adjective2} nostrils that blew fire when it was ${verb}.`;
+
+// Output the second story
+console.log("Second story: " + secondStory);
+
+
+** end of script.js **
+
